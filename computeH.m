@@ -1,5 +1,5 @@
 function H = computeH(im1_pts,im2_pts)
-%%使用最小二乘法估计H 矩阵,im1_pt为动点，im2_pts为不动点
+
 numpoint = size(im1_pts,1);
 A = zeros(numpoint*3,8);
 y = zeros(numpoint*3,1);
