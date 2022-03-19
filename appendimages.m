@@ -1,4 +1,4 @@
-%2张图像同时显示。以显示特征点匹配连线
+
 
 function im = appendimages(image1, image2)
 
